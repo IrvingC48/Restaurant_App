@@ -15,7 +15,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,10 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-app-rewire-disable-chunks": "0.0.1",
-    "react-app-rewired": "^2.1.8"
-  },
-  "config-overrides-path": "node_modules/react-app-rewire-disable-chunks"
+  }
 }
