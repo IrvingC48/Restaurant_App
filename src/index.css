@@ -1,0 +1,14 @@
+@media screen and (min-width: 769px) {
+  .is-box-responsive {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%)
+  }
+  .is-grid {
+    display: grid
+  }
+  .cols3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .is-small.is-medium-tablet {
+    font-size: 1.25rem
+  }
+}
